@@ -1,0 +1,45 @@
+@import '~bootstrap/scss/bootstrap';
+@import 'colors.scss';
+@import 'theme.scss';
+@import 'typography.scss';
+
+
+body {
+  background-color: $background-color;
+  color: $font-color;
+  font-family: $font-family;
+}
+
+.col-3 {
+  display: flex;
+  border-color: black;
+  border-style: solid;
+  height: 100px;
+
+}
+
+.game-board {
+//  display: flex;
+  border-color: black;
+  border-style: solid;
+}
+
+h1 {
+  text-align: justify;
+}
+
+.in-game {
+  display: none;
+}
+
+.message-block {
+  min-height: 33px;
+}
+
+nav {
+//  display: flex;
+  background-color: $white;
+  font-size: 20;
+  border-color: black;
+  border-style: solid;
+}
